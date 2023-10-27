@@ -1,6 +1,13 @@
-@import url();
+@import url(https://fonts.google.com/specimen/Poppins);
 
-
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: hsl(0, 0%, 98%);
+  color: hsl(228, 12%, 44%);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.6;
+}
 
 /* Footer */
 .attribution {
