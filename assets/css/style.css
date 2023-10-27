@@ -9,6 +9,45 @@ body {
   line-height: 1.6;
 }
 
+
+/* Calculator Container */
+#container {
+  display: flex;
+  flex-direction: column;
+}
+
+#calculator {
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(0, 0%, 90%);
+  border-radius: 10px;
+  margin: 5rem auto;
+  padding: 2rem;
+  width: 400px;
+}
+
+/* Inputs Fields */
+.inputs-field {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.inputs-field label {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: hsl(228, 12%, 44%);
+}
+
+input {
+  height: 30px;
+  width: 60px;
+}
+
 /* Footer */
 .attribution {
   font-size: 11px;
