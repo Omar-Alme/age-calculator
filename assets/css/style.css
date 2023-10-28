@@ -2,7 +2,7 @@
 
 body {
   font-family: 'Poppins', sans-serif;
-  background-color: hsl(0, 0%, 98%);
+  background-color: hsl(0, 0%, 90%);
   color: hsl(228, 12%, 44%);
   font-size: 15px;
   font-weight: 400;
@@ -19,11 +19,44 @@ body {
 #calculator {
   display: flex;
   flex-direction: column;
-  background-color: hsl(0, 0%, 90%);
+  background-color: hsl(0, 0%, 98%);
   border-radius: 10px;
   margin: 5rem auto;
   padding: 2rem;
   width: 400px;
+}
+
+/* Button */
+.calculator-button {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1rem;
+}
+
+.button {
+  display: flex;
+  flex-direction: flex-end;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: none;
+  background-color: hsl(259, 100%, 65%);
+  color: hsl(0, 0%, 100%);
+  font-size: 1.5rem;
+  font-weight: 700;
+  cursor: pointer;
+  outline: none;
+}
+
+.button:hover {
+  background-color: hsl(0, 0%, 8%);
+}
+
+.button img {
+  height: 30px;
+  width: 25px;
 }
 
 /* Inputs Fields */
