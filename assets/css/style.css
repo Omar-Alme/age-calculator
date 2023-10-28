@@ -26,7 +26,6 @@ body {
   width: 500px;
   height: 350px;
   border-radius: 20px;
-
   border-bottom-right-radius: 170px;
 }
 
@@ -36,7 +35,7 @@ body {
   flex-direction: row-reverse;
   align-items: center;
   justify-content: center;
-  /* margin-bottom: 1rem; */
+  margin-bottom: 0 auto;
 }
 
 .line {
@@ -71,11 +70,12 @@ body {
 .inputs-field {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  gap: 20px;
+  /* justify-content: space-evenly; */
+  gap: 40px;
   padding-right: 30px;
   margin-bottom: 1rem;
 }
+
 
 .inputs-field label {
   display: flex;
@@ -90,9 +90,9 @@ body {
 
 input {
   height: 40px;
-  width: 70px;
+  width: 90px;
   font-size: 16px;
-  font-weight: 900;
+  font-weight: 800;
 }
 
 
@@ -108,7 +108,7 @@ input {
 
 span {
   color: hsl(259, 100%, 65%);
-  font-weight: 900;
+  font-weight: 800;
 }
 
 /* Footer */
