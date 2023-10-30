@@ -76,6 +76,13 @@ body {
   margin-bottom: 1rem;
 }
 
+::placeholder {
+  color: hsl(228, 12%, 44%);
+  font-weight: 800;
+  font-size: 20px;
+  padding-left: 6px;
+  opacity: 0.5;
+}
 
 .inputs-field label {
   display: flex;
@@ -91,8 +98,11 @@ body {
 input {
   height: 40px;
   width: 90px;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 800;
+  padding-left: 10px;
+  border: 1px solid hsl(0, 0%, 86%);
+  border-radius: 5px;
 }
 
 
